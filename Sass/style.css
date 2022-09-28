@@ -6,4 +6,109 @@
           box-sizing: border-box;
   font-size: 16px;
 }
+
+* a {
+  text-decoration: none;
+  color: unset;
+}
+
+* ul {
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.h1_size_big {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.04px;
+}
+
+.h1_size_medium {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.84px;
+}
+
+.h1_size_small {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#header_desc {
+  background-color: #FFFFFF;
+  padding: 21px 131px;
+}
+
+#header_desc .header_left_d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header_desc .header_left_d .head_nav_menu {
+  width: 8rem;
+  height: 3rem;
+  color: #FFFFFF;
+  background-color: #F58634;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+#header_desc .header_left_d .head_logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 78px;
+}
+
+#header_desc .header_center_d .input_header_d {
+  width: 35rem;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid #EBECEF;
+}
+
+#header_desc .header_center_d .search_icon_header_d {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  padding: 7px 11px;
+  background-color: #EBECEF;
+  margin: 10px -48px;
+}
+
+#header_desc .header_center_d .search_icon_header_d .fa-search {
+  color: #343F56;
+}
+
+#header_desc .header_right_d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#header_desc .header_right_d .header_right_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2.1rem;
+  color: #343F56;
+}
+
+#header_desc .header_right_d .header_right_item .hr_icon {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */

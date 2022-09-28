@@ -1,0 +1,79 @@
+//--------------------------------Header
+#header_desc {
+    background-color: $white;
+    padding: 21px 131px;
+
+    //-----------------Header Left
+    .header_left_d {
+        display: flex;
+        justify-content: space-between;
+
+        //Navigation menu button on Header for Desktop 
+        .head_nav_menu {
+            width: 8rem;
+            height: 3rem;
+            color: $white;
+            background-color: $orange_dark;
+            border-radius: 10px;
+            border: 1px solid transparent;
+        }
+
+        // Header Logo
+        .head_logo {
+            object-fit: contain;
+            width: 78px;
+        }
+    }
+
+    // Header Center for Desktop -->
+    .header_center_d {
+
+        //  Header Center Input  for Desktop -->
+        .input_header_d {
+            width: 35rem;
+            padding: 15px;
+            border-radius: 30px;
+            border: 1px solid $grey_ultra_light;
+        }
+
+        // Search İcon for İnput -->
+        .search_icon_header_d {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            padding: 7px 11px;
+            background-color: $grey_ultra_light;
+            margin: 10px -48px;
+
+            .fa-search {
+                color: $grey_dark;
+            }
+        }
+    }
+
+    // Header Right
+    .header_right_d {
+        display: flex;
+        justify-content: space-around;
+
+        .header_right_item {
+            display: flex;
+            align-items: center;
+            margin-left: 2.1rem;
+color: $grey_dark;
+            // Header Right Icons Common Properties
+            .hr_icon {
+                margin-right: 10px;
+                // width: 24px;
+                // height: 24px;
+            }
+
+            //Shopping Bag on Header Right  for Desktop
+            .fa-bag-shopping {}
+
+            .header_shopBag_cost {}
+
+        }
+
+    }
+}

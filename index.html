@@ -31,42 +31,49 @@
     <!-- Header  for Desktop -->
     <header id="header_desc">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
 
                 <!-- Header Left for Desktop  -->
-                <div class="header_left_d col-md-4">
+                <div class="header_left_d col-sm-3 ">
                     <!-- Navigation menu button on Header for Desktop  -->
-                    <button class="head_nav_menu">Header <i class="fa-solid fa-angle-down"></i> </button>
-                    <img class="head_nav_logo" src="Images/logo_header.png" alt="LogoOnHeader">
+                    <button class="head_nav_menu">
+                        <i class="fa-solid fa-bars"></i>
+                        Kataloq
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <!-- Header Logo -->
+                    <img class="head_logo" src="Images/logo_header.png" alt="LogoOnHeader">
                 </div>
 
-                <!-- Header Center for Desktop -->
-                <div class="header_center_d col-md-5">
-                    <!-- İnput for search content on Header -->
-                    <form action="#" class="form_header_d">
+                <!-- Header Center  for Desktop -->
+                <div class="col-sm-7 header_center_d ">
+                    <form action="#">
+                        <!-- Header Center Input  for Desktop -->
                         <input type="text" class="input_header_d" placeholder="Axtarmaq istədiyin məhsulu yazin">
                         <!-- Search İcon for İnput -->
                         <a class="search_icon_header_d"><i class="fa-sharp fa-solid fa-search"></i></a>
                     </form>
+
                 </div>
 
                 <!-- Header Right for Desktop -->
-                <div class="header_right_d  d-flex col-md-3">
+                <ul class="header_right_d  col-sm-2">
+
                     <!-- Shopping Bag on Header Right  for Desktop-->
-                    <div class="header_right_shopBag_d">
-                        <i class="fa-solid  fa-bag-shopping"></i>
-                        <span>1200m</span>
-                    </div>
+                    <li class="header_right_item  ">
+                        <i class="fa-solid  fa-bag-shopping hr_icon"></i>
+                        <span class="header_shopBag_cost">1200m</span>
+                    </li>
                     <!-- User Account on Header Right for Desktop -->
-                    <div class="header_right_account_d">
-                        <i class="fa-regular fa-user"></i>
+                    <li class="header_right_item ">
+                        <i class="fa-regular fa-user hr_icon"></i>
                         <span>Hesabım</span>
-                    </div>
+                    </li>
                     <!-- Like Page İcon on Header Right for Desktop  -->
-                    <div class="header_right_heart_d">
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                </div>
+                    <li class=" header_right_item">
+                        <i class="fa-regular fa-heart hr_icon"></i>
+                    </li>
+                </ul>
 
             </div>
         </div>
@@ -80,30 +87,28 @@
                 <!------------------------------------Main left for Desktop -->
                 <div class="main_left col-10">
 
-                    <!----------------- Main left Navigation  for Desktop -->
-                    <section class="main_left_nav">
+                    <!-----------------Main left Navigation  for Desktop -->
+                    <ul class="main_left_nav d-flex">
 
                         <!-- Navigation item 1   -->
-                        <a href="#" class="ml_nav_item">Lorem Ipsum
+                        <li href="#" class="ml_nav_item">Lorem Ipsum
                             <i class="fa-solid fa-angle-right"></i>
-                        </a>
+                        </li>
                         <!-- Navigation item 2   -->
-                        <a href="#" class="ml_nav_item">Lorem Ipsum
+                        <li href="#" class="ml_nav_item">Lorem Ipsum
                             <i class="fa-solid fa-angle-right"></i>
-                        </a>
+                        </li>
                         <!-- Navigation item 3   -->
-                        <a href="#" class="ml_nav_item">Lorem Ipsum
+                        <li href="#" class="ml_nav_item">Lorem Ipsum
                             <i class="fa-solid fa-angle-right"></i>
-                        </a>
-                    </section>
+                        </li>
+                    </ul>
 
-
-                    <!----------------- Main left Header  for Desktop -->
+                    <!-----------------Main left Header for Desktop -->
                     <section class="main_left_header">
-
                         <div class="row">
 
-                            <!---- Header Images on Main left for Desktop -->
+                            <!---- Header Product Images on Main left for Desktop -->
                             <div class="col-5 main_left_header_images">
 
                                 <div class="row">
@@ -143,24 +148,24 @@
                                 </div>
                             </div>
 
-                            <!-- --Header Text on Main left for Desktop -->
-                            <div class="col-7 main_left_header_text">
-                                <!-- Header Text Title on Main left for Desktop -->
-                                <div class="mlh_text_title">
+                            <!-- --Header Product Properties on Main left for Desktop -->
+                            <div class="col-7 main_left_header_property">
+                                <!-- Header property Title on Main left for Desktop -->
+                                <div class="mlh_property_title">
                                     <p>Samsung 43" LED Smart TV 4K UHD (UE43TU7540UXRU)</p>
                                 </div>
 
-                                <!-- Header Text SubTitle on Main left for Desktop -->
-                                <div class="mlh_text_subtitle">
+                                <!-- Header property SubTitle on Main left for Desktop -->
+                                <div class="mlh_property_subtitle">
 
-                                <!-- Header Text SubTitle Barcode-->
-                                    <div class="mlh-text-subtt-barcode">
-                                     <span>Məhsul kodu:233701</span> 
+                                    <!-- Header property SubTitle Barcode-->
+                                    <div class="mlh-property-subtt-barcode">
+                                        <span>Məhsul kodu:233701</span>
                                     </div>
-                                <!-- Header Text SubTitle Ratng-->
-                                    <div class="mlh-text-subtt-rating">
-                                        <span class="mlh-text-subtt-rating-score" >4.2/5</span>
-                                        <span class="mlh-text-subtt-rating-star">
+                                    <!-- Header property SubTitle Rating-->
+                                    <div class="mlh-property-subtt-rating">
+                                        <span class="mlh-property-subtt-rating-score">4.2/5</span>
+                                        <span class="mlh-property-subtt-rating-star">
                                             <i class="fa-duotone fa-star"></i>
                                             <i class="fa-duotone fa-star"></i>
                                             <i class="fa-duotone fa-star"></i>
@@ -168,9 +173,61 @@
                                             <i class="fa-duotone fa-star"></i>
                                         </span>
                                     </div>
-
                                 </div>
 
+                                <!-- Header property Content on Main left for Desktop -->
+                                <div class="mlh_property_content">
+                                    <p>Daxili həcm, l 20Mikrodalğaların gücü, Vt 800Qril var, 1000 Vtİdarəetmə növü
+                                        elektron Daxili həcm, l 20Mikrodalğaların gücü, Displey varTaymer 60
+                                        dəqQabaritlər (H x Q x D), sm 25.70 x 45.10 x 34.30 Daxili həcm, l
+                                        20Mikrodalğaların gücü.</p>
+                                </div>
+
+                                <!-- Header property Features on Main left for Desktop -->
+                                <div class="mlh_property_features">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <button>
+                                                Endirimli qiymət
+                                                <i class="fa-regular fa-badge"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button>Stokta var
+                                                <i class="fa-regular fa-box-circle-check"></i>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button>
+                                                Keyfiyyətə Zəmanət
+                                                <i class="fa-sharp fa-solid fa-shield-check"></i>
+                                            </button>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <button>
+                                                <i class="fa-light fa-calendar-clock"></i>
+                                                14 gün ərzində
+                                                qaytarılma
+                                            </button>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button>
+                                                <i class="fa-thin fa-wallet"></i>
+                                                Qapıda nağd və
+                                                ya onlayn ödəmə
+                                            </button>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button>
+                                                <i class="fa-light fa-truck"></i>
+                                                3 saata pulsuz
+                                                çatdırılma
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -202,7 +259,7 @@
                 <div class="main-footer-center_d">
                     <div class="row " id="cards-main-footer">
                         <!-- First Card on footer of Main  -->
-                        <div class="col-2item-mfc_d">
+                        <div class="col-3 item-mfc_d">
                             <div class="card" style="width: 18.19rem;">
                                 <!-- Card Image on footer of Main-->
                                 <img class="card-img-top" style="width: 6.87rem;" src="Images/phone.png"
@@ -342,6 +399,89 @@
                 </div>
             </section>
     </main>
+
+    <!----------------------------------------------------- Footer for Desktop -->
+    <footer>
+        <div class="row">
+            <!-- Footer First Column Social Media and Logo -->
+            <div class="col-md-4 footer_first_col">
+
+                <!--Logo on Footer First Column -->
+                <img src="Images/logo_footer.png" alt="LogoFooter" class="first_col_img">
+
+                <!-- Title on Footer First Column -->
+                <div class="first_col_tt">
+                    <p>Bizi Izləyin</p>
+                </div>
+
+                <!-- Social Medias on Footer first Column -->
+                <ul class="first_col_socials">
+                    <!-- Facebbok -->
+                    <li class="first_col_item"></li>
+                    <!-- Instagram -->
+                    <li class="first_col_item"></li>
+                    <!-- Youtube -->
+                    <li class="first_col_item"></li>
+                    <!-- Tweeter -->
+                    <li class="first_col_item"></li>
+
+                </ul>
+            </div>
+
+            <!-- About Company  on Footer Second Column  -->
+            <div class="col-md-2 footer_second_col">
+                <!-- Title on Footer Second Column -->
+                <p class="second_col_title">Şirkət</p>
+
+                <ul class="second_col_company">
+                    <!-- About of Company -->
+                    <li class="second_col-item">Haqqımızda</li>
+                    <!-- Stores of Company -->
+                    <li class="second_col-item">Mağazalar</li>
+                    <!-- Vacancy of Company -->
+                    <li class="second_col-item">Vakansiyalar</li>
+                    <!-- Campaigns of Company -->
+                    <li class="second_col-item">Kampaniyalar</li>
+                    <!-- Condition of Company -->
+                    <li class="second_col-item">Şərtimiz</li>
+                </ul>
+            </div>
+
+            <!--For Costumers on  Footer Third Column -->
+            <div class="col-md-2 footer_third_col">
+                <!-- Title on Footer Third Column -->
+                <p class="third_col_title">Müştərilər üçün</p>
+
+                <!-- Options for Costumers on Footer Third Column  -->
+                <ul class="third_col_costumers">
+                    <li class="third_col-item">Hissə-hissə ödəniş</li>
+                    <li class="third_col-item"> Məxfilik siyasəti</li>
+                    <li class="third_col-item">Istifadə qaydaları</li>
+                    <li class="third_col-item">Bloq</li>
+                </ul>
+            </div>
+
+            <!-- About Contact  on Footer Fourth Column  -->
+            <div class="col-md-4 footer_fourth_col">
+                <!-- Title on Footer Fourth Column -->
+                <p class="fourth_col_title">Əlaqə</p>
+                <!-- Cal Center on Footer Fourth Column -->
+                <p class="fourth_col_cal">
+                    <span>*</span>4010
+                </p>
+
+                <ul class="fourth_col_contact">
+                    <li class="fourth_col_adress">
+                        <p>Nəsimi ray, Xətai pr 38.</p>
+                    </li>
+                    <li class="fourth_col_mail">
+                        <a href="#"> info@logo.az</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
 

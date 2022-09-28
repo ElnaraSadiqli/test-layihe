@@ -2,6 +2,7 @@
 $grey_dark:#343F56;
 $grey_medium: #95979C;
 $grey_light: #ADADAD;
+$grey_ultra_light:#EBECEF;
 $orange_dark:#F58634;
 $orange_light:#FB9300;
 $white: #FFFFFF;
@@ -9,3 +10,66 @@ $black:#2D2D2D;
 $red:#E80000;
 $yellow: #FDD835;
 $green:#009E36;
+
+
+// Content Size Adjust
+
+// size:20px, weight:700, line-height:26.04px, DM Sans
+.h1_size_big {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.04px;
+}
+
+// size:24px weight:500 line-height:31.84px Roboto
+.h1_size_medium {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.84px;
+
+}
+
+// size:24px weight:500 line-height:31.84px Roboto
+.h1_size_small {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.h2_size_big {}
+
+.h2_size_medium {}
+
+.h2_size_small {}
+
+.h3_size_big {}
+
+.h3_size_medium {}
+
+.h3_size_small {}
+
+.h4_size_big {}
+
+.h4_size_medium {}
+
+.h4_size_small {}
+
+.h5_size_big {}
+
+.h5_size_medium {}
+
+.h5_size_small {}
+
+.h6_size_big {}
+
+.h6_size_medium {}
+
+.h6_size_small {}
+
+.h6_size_smallest {}
