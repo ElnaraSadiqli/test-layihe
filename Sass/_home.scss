@@ -89,9 +89,9 @@
 
     //----------Main Left
     .main_left {
-display: flex;
-flex-direction: column;
-align-content: center;
+        display: flex;
+        flex-direction: column;
+
         // Main left Navigation 
         .main_left_nav {
             padding: 30px;
@@ -115,9 +115,7 @@ align-content: center;
 
             // Header Product Images on Main left
             .main_left_header_images {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+
 
                 // Header Product Big Image
                 .big-image {
@@ -125,12 +123,95 @@ align-content: center;
                     object-fit: cover;
                 }
 
-                // Header Product Big Image
-                .small-images {}
+                // Header Product Slider from Small Images
+                .small-images-slider {
+
+                    // Slider Image for Header Product
+                    .small-img {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 10px;
+                        border: 1px solid #EDEDED;
+                        padding: 10px;
+
+                        .playImage {
+                            transform: translate(6px, 4px);
+                        }
+                    }
+                }
             }
 
             // Header Product Properties on Main left
-            .main_left_header_property {}
+            .main_left_header_property {
+padding: 20px 19px 0px 0px;
+                // Header property Title on Main left
+                .mlh_property_title {
+                    @extend .h1_size_medium;
+                    color: $black;
+                }
+
+
+                // Header property SubTitle on Main left
+                .mlh_property_subtitle {
+                    position: relative;
+                    bottom: 18px;
+
+                    // Header property SubTitle Barcode   
+                    .mlh-property-subtt-barcode {
+                        font-family: " Roboto";
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 16px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: $grey_light;
+                    }
+
+                    // Header property SubTitle Rating 
+                    .mlh-property-subtt-rating {
+                        margin-left: 20px;
+                        transform: translateY(-3px);
+
+                        .mlh-property-subtt-rating-score {
+
+                            &:first-child {
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 18.58px;
+
+                                span {
+                                    font-weight: 300;
+                                }
+                            }
+
+                        }
+                    }
+
+                }
+
+                // Header property Content on Main left
+                .mlh_property_content {
+                    color: $black;
+                    @extend .h6_size_big;
+                    letter-spacing: 0em;
+                    text-align: justify;
+                    padding-bottom: 26px;
+                }
+
+                //Header property Features on Main left for Desktop
+                .mlh_property_features{
+
+                    .features_item{
+                        @include simple_border;
+                        @extend .h6_size_smallest;
+                    }
+                }
+
+
+
+
+            }
+
         }
     }
 
