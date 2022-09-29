@@ -1,4 +1,5 @@
 // Text ,Icon, Content Colors
+$main_bckground:#E5E5E5;
 $grey_dark:#343F56;
 $grey_medium: #95979C;
 $grey_light: #ADADAD;
@@ -31,45 +32,139 @@ $green:#009E36;
 
 }
 
-// size:24px weight:500 line-height:31.84px Roboto
+// size:24px weight:500 line-height:28.13px Roboto
 .h1_size_small {
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+  
 }
 
-.h2_size_big {}
+// size:18px weight:300 line-height:23.88px Roboto
+.h2_size_big {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.88px;
+    
+}
 
-.h2_size_medium {}
+// size:16px weight:500 line-height:27.2px Roboto
+.h2_size_medium {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+}
 
-.h2_size_small {}
+// size:16px weight:500 line-height:20.83px DM Sans
+.h2_size_small {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+}
 
-.h3_size_big {}
+// size:16px weight:400 line-height:18.75px Roboto
+.h3_size_big {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
 
-.h3_size_medium {}
+// size:16px weight:300 line-height:18.75px Roboto
+.h3_size_medium {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+}
 
-.h3_size_small {}
+// size:15px weight:400 line-height:21px DM Sans
+.h3_size_small {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+}
+// size:14px weight:500 line-height:23.34px Roboto
+.h4_size_big {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.34px;
+}
 
-.h4_size_big {}
+// size:14px weight:500 line-height:18.23px DM Sans
+.h4_size_medium {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+}
 
-.h4_size_medium {}
+// size:14px weight:400 line-height:23.8px Roboto
+.h4_size_small {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+}
 
-.h4_size_small {}
+// size:14px weight:400 line-height:18.23px Sans
+.h5_size_big {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.23px;
+}
 
-.h5_size_big {}
+// size:14px weight:400 line-height:16.41px Roboto
+.h5_size_medium {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+}
 
-.h5_size_medium {}
+// size:14px weight:300 line-height:23.8px Roboto
+.h5_size_small {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23.8px;
+}
 
-.h5_size_small {}
+// size:14px weight:300 line-height:23.34px Roboto
+.h6_size_big {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23.34px;
+}
 
-.h6_size_big {}
+// size:12px weight:500(400) line-height:15.62px Sans
+.h6_size_medium {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.62px;
+}
 
-.h6_size_medium {}
+// size:12px weight:500 line-height:14.06px Roboto
+.h6_size_small {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+}
 
-.h6_size_small {}
-
-.h6_size_smallest {}
+// size:12px weight:400 line-height:14.42px Roboto
+.h6_size_smallest {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.42px;
+}

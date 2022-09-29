@@ -13,6 +13,7 @@
             width: 8rem;
             height: 3rem;
             color: $white;
+            @extend .h2_size_small;
             background-color: $orange_dark;
             border-radius: 10px;
             border: 1px solid transparent;
@@ -25,13 +26,14 @@
         }
     }
 
-    // Header Center for Desktop -->
+    //---------------------Header Center -->
     .header_center_d {
 
         //  Header Center Input  for Desktop -->
         .input_header_d {
             width: 35rem;
             padding: 15px;
+            @extend .h5_size_big;
             border-radius: 30px;
             border: 1px solid $grey_ultra_light;
         }
@@ -51,7 +53,7 @@
         }
     }
 
-    // Header Right
+    //-----------------------------Header Right
     .header_right_d {
         display: flex;
         justify-content: space-around;
@@ -60,20 +62,80 @@
             display: flex;
             align-items: center;
             margin-left: 2.1rem;
-color: $grey_dark;
+            color: $grey_dark;
+            @extend .h4_size_medium;
+
             // Header Right Icons Common Properties
             .hr_icon {
                 margin-right: 10px;
-                // width: 24px;
-                // height: 24px;
+
             }
 
             //Shopping Bag on Header Right  for Desktop
-            .fa-bag-shopping {}
+            // .fa-bag-shopping {
 
-            .header_shopBag_cost {}
+
+            // }
+
 
         }
 
     }
+}
+
+// ----------------------------------Main
+#main_d {
+    background-color: $main_bckground;
+
+    //----------Main Left
+    .main_left {
+display: flex;
+flex-direction: column;
+align-content: center;
+        // Main left Navigation 
+        .main_left_nav {
+            padding: 30px;
+
+            // Main left Navigation Items
+            .ml_nav_item {
+                margin-right: 6px;
+                text-align: center;
+
+                .nav_item {
+                    @extend .h6_size_medium;
+
+                }
+            }
+        }
+
+        // Main left Header
+        .main_left_header {
+            background-color: $white;
+            padding: 20px 20px 49px 20px;
+
+            // Header Product Images on Main left
+            .main_left_header_images {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                // Header Product Big Image
+                .big-image {
+                    width: 283px;
+                    object-fit: cover;
+                }
+
+                // Header Product Big Image
+                .small-images {}
+            }
+
+            // Header Product Properties on Main left
+            .main_left_header_property {}
+        }
+    }
+
+
+
+
+    // ----------Main Right
 }
